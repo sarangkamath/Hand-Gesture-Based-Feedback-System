@@ -26,12 +26,16 @@ The Hand Gesture-Based Feedback System is an innovative application that leverag
 - CSS: For styling toast notifications and enhancing the UI.
 
 ## Running the application
-1. To launch the application, run the following command in your terminal:
+1. First install all the necessary libraries in order to run the application:
+```bash
+pip install opencv-python mediapipe numpy streamlit streamlit-option-menu
+```
+2. To launch the application, run the following command in your terminal:
 ```bash
 streamlit run main.py
 ```
-2. A web-based interface will open in your default browser
-3. Interact:
+3. A web-based interface will open in your default browser
+4. Interact:
    - Perform gestures in front of the webcam
    - The system will classify the gestures and log them as positive or negative votes
    - Notifications will confirm your input and log them in the CSV file in real time

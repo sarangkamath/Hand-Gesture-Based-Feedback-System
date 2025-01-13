@@ -28,7 +28,7 @@ The Hand Gesture-Based Feedback System is an innovative application that leverag
 ## Running the application
 1. First install all the necessary libraries in order to run the application:
 ```bash
-pip install opencv-python mediapipe numpy streamlit streamlit-option-menu
+pip install opencv-python mediapipe numpy streamlit streamlit-option-menu tensorflow
 ```
 2. To launch the application, run the following command in your terminal:
 ```bash
